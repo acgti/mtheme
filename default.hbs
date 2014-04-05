@@ -16,7 +16,27 @@
     <link title="newtheme" rel="stylesheet" href="{{asset "styles/mtheme.css"}}">
     <script src="{{asset "scripts/modernizr.custom.js"}}"></script>
 
-    {{ghost_head}} {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}} 
+    <!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-534051e867b8ecc6"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 5
+    }, 
+    'follow' : {
+      'services' : [
+        {'service': 'twitter', 'id': 'andychung'}
+      ]
+    },  
+    'whatsnext' : {}  
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+{{! Ghost outputs important style and meta data with this tag }}
 
   </head>
   <body class="{{body_class}}">
